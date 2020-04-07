@@ -31,6 +31,7 @@ print('test cost:',cost)
 W,b=model.layers[0].get_weights()
 print("Weights=",W,"\nbiases=",b)
 
+#查看效果
 Y_pred=model.predict(X_test)
 plt.scatter(X_test,Y_test)
 plt.plot(X_test,Y_pred)
