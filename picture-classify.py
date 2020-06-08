@@ -87,5 +87,4 @@ plt.show()
 
 #判定输出结果
 pred=model.predict(testrun)
-print(pred)
 print([final.argmax() for final in pred][0])
